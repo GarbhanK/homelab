@@ -15,8 +15,8 @@ services:
       TZ: 'Europe/Dublin' # update according to your timezone
       WEBPASSWORD: 'pihole' #update password
     volumes:
-      - '/home/garbhan/pihole/etc-pihole:/etc/pihole' #update
-      - '/home/garbhnan/pihole/etc-dnsmasq.d:/etc/dnsmasq.d' #update
+      - '/home/garbhan/homelab/pihole/etc-pihole:/etc/pihole' #update
+      - '/home/garbhnan/homelab/pihole/etc-dnsmasq.d:/etc/dnsmasq.d' #update
     cap_add:
       - NET_ADMIN
     restart: unless-stopped

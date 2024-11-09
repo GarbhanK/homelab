@@ -2,17 +2,35 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/bookmarks
 
-- Developer:
-    - Github:
+- developer:
+    - github:
         - abbr: GH
-          href: https://github.com/
+          href: https://github.com/garbhank/
+    - kubernetes:
+        - abbr: K8
+          href: https://devopswithkubernetes.com/
 
-- Social:
-    - Reddit:
+- general:
+    - reddit:
         - abbr: RE
           href: https://reddit.com/
+    - medium:
+        - abbr: MD
+          href: https://medium.com/
+    - everything:
+        - abbr: X
+          href: https://twitter.com/
 
-- Entertainment:
+- music:
     - YouTube:
         - abbr: YT
           href: https://youtube.com/
+    - rateyourmusic:
+        - abbr: RYM
+          href: https://rateyourmusic.com/
+    - lastfm:
+        - abbr: FM
+          href: https://last.com/user/Smurf_99
+    - ultimate-guitar:
+        - abbr: UG
+          href: https://www.ultimate-guitar.com/user/mytabs

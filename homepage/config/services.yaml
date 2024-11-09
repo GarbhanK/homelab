@@ -11,6 +11,7 @@
 
 - monitoring:
     - grafana:
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/grafana.svg
         href: http://192.168.178.77:3000/
         description: pi metrics
         server: homelab

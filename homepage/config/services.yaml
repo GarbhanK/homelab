@@ -2,17 +2,29 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- apps:
+  - memos:
+      href: http://192.168.178.77:5230/
+      description: nooooootes
+      server: homelab
+      container: memos
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+- monitoring:
+    - grafana:
+        href: http://192.168.178.77:3000/
+        description: pi metrics
+        server: homelab
+        container: memos
+    - prometheus:
+        href: http://192.168.178.77:9090
+        description: collects the metrics
+        server: homelab
+        container: memos
 
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+- misc:
+  - pihole:
+      href: http://192.168.178.88/admin
+      description: router adblock
+      server: homelab
+      container: memos
+

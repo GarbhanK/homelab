@@ -2,6 +2,9 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/settings
 
+title: homelab
+favicon: https://img.icons8.com/?size=100&id=54707&format=png&color=000000
+
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey

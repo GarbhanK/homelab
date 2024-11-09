@@ -5,6 +5,6 @@ services:
     ports:
       - 8080:3000
     volumes:
-      - /home/garbhan/homelab/homepage/config:/app/config
+      - /home/garbhan/code/homelab/homepage/config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations
 

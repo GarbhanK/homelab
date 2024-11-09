@@ -9,14 +9,13 @@ services:
     ports:
       - "53:53/tcp"
       - "53:53/udp"
-      - "67:67/udp" # Only required if you are using Pi-hole as your DHCP server
       - "80:80/tcp"
     environment:
-      TZ: 'Europe/Dublin' # update according to your timezone
-      WEBPASSWORD: 'pihole' #update password
+      TZ: 'Europe/Dublin'
+      WEBPASSWORD: 'pihole'
     volumes:
-      - '/home/garbhan/homelab/pihole/etc-pihole:/etc/pihole' #update
-      - '/home/garbhnan/homelab/pihole/etc-dnsmasq.d:/etc/dnsmasq.d' #update
+      - '/home/garbhan/homelab/pihole/etc-pihole:/etc/pihole'
+      - '/home/garbhan/homelab/pihole/etc-dnsmasq.d:/etc/dnsmasq.d'
     cap_add:
       - NET_ADMIN
     restart: unless-stopped
@@ -28,6 +27,6 @@ networks:
       parent: eth0
     ipam:
       config:
-        - subnet: 192.168.1.0/24
-          gateway: 192.168.1.1
+        - subnet: 192.168.178.0/24
+          gateway: 192.168.178.1
 

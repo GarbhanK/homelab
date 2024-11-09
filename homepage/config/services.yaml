@@ -4,6 +4,7 @@
 
 - apps:
   - memos:
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/memos.png
       href: http://192.168.178.77:5230/
       description: nooooootes
       server: homelab
@@ -17,6 +18,7 @@
         server: homelab
         container: memos
     - prometheus:
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/prometheus.svg
         href: http://192.168.178.77:9090
         description: collects the metrics
         server: homelab
@@ -24,6 +26,7 @@
 
 - misc:
   - pihole:
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/pi-hole.svg
       href: http://192.168.178.88/admin
       description: router adblock
       server: homelab

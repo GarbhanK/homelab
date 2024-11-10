@@ -9,6 +9,11 @@
       description: nooooootes
       server: homelab
       container: memos
+  - docuseal:
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/docuseal.svg
+      href: http://192.168.178.77:3001/
+      server: homelab
+      container: docuseal-app-1
 
 - monitoring:
     - grafana:

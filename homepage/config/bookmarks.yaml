@@ -11,6 +11,9 @@
           href: https://devopswithkubernetes.com/
 
 - general:
+    - plex:
+        - abbr: PX
+        - href: http://192.168.178.77:32400/
     - reddit:
         - abbr: RE
           href: https://reddit.com/

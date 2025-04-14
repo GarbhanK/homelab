@@ -1,7 +1,7 @@
 
 
 # homepage log files
-homepage/config/logs
+homepage/config/logs/homepage.log
 
 # docuseal data
 docuseal/docuseal/

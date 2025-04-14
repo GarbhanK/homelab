@@ -3,12 +3,6 @@
 # https://gethomepage.dev/configs/services
 
 - apps:
-  - memos:
-      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/memos.png
-      href: http://192.168.178.77:5230/
-      description: nooooootes
-      server: homelab
-      container: memos
   - docuseal:
       icon: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/docuseal.svg
       href: http://192.168.178.77:3001/
@@ -26,13 +20,13 @@
         href: http://192.168.178.77:3000/
         description: pi metrics
         server: homelab
-        container: memos
+        container: monitoring
     - prometheus:
         icon: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/prometheus.svg
-        href: http://192.168.178.77:9090
+        href: http://192.168.178.77:9090/
         description: collects the metrics
         server: homelab
-        container: memos
+        container: monitoring
 
 - misc:
   - pihole:
@@ -40,5 +34,5 @@
       href: http://192.168.178.88/admin
       description: router adblock
       server: homelab
-      container: memos
+      container: pihole
 

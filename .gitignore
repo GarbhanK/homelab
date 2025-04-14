@@ -1,0 +1,12 @@
+
+
+# homepage log files
+homepage/config/logs
+
+# docuseal data
+docuseal/docuseal/
+
+# pihole config
+pihole/etc-pihole/
+pihole/etc-dnsmasq.d/
+

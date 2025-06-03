@@ -27,7 +27,7 @@ services:
       - TZ=Dublin/Europe
       - DELUGE_LOGLEVEL=error #optional
     volumes:
-      - /home/garbhan/homelab/deluge:/config
+      - /home/garbhan/homelab/deluge/config:/config
       - /var/lib/plexmediaserver/plexmedia/movies:/downloads
       - /var/lib/plexmediaserver/plexmedia/tvshows:/tvshows
     network_mode: service:gluetun

@@ -10,3 +10,12 @@ docuseal/docuseal/
 pihole/etc-pihole/
 pihole/etc-dnsmasq.d/
 
+# deluge config
+deluge/config
+deluge/.env
+deluge/auth
+deluge/session.state
+deluge/core.conf
+deluge/web.conf
+deluge/gluetun/
+

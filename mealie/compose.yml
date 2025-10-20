@@ -11,6 +11,8 @@ services:
           memory: 1000M
     volumes:
       - mealie-data:/app/data/
+    networks:
+      - homelab
     environment:
       # Set Backend ENV Variables Here
       ALLOW_SIGNUP: "false"
@@ -21,4 +23,8 @@ services:
 
 volumes:
   mealie-data:
+
+networks:
+  homelab:
+    external: true
 

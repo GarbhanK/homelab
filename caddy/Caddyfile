@@ -4,6 +4,7 @@ homelab.local {
 }
 
 grafana.homelab.local {
+        tls internal
         reverse_proxy grafana:3000
 }
 
